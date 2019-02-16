@@ -1,6 +1,6 @@
-import 'package:carousel_widget/fragment.dart';
-import 'package:carousel_widget/widgets/carousel/components/bar_point_selected.dart';
-import 'package:carousel_widget/widgets/carousel/components/point_selected.dart';
+import 'package:carousel_widget/src/carousel/components/bar_point_selected.dart';
+import 'package:carousel_widget/src/carousel/components/point_selected.dart';
+import 'package:carousel_widget/src/carousel/widgets/fragment.dart';
 import 'package:flutter/material.dart';
 
 class CarouselController extends StatefulWidget {
