@@ -1,8 +1,8 @@
 name: carousel_widget
 description: A library for the use of the Carousel Widget through a list of Fragments
 version: 0.0.1
-author:
-homepage:
+author: Luis Meneses
+homepage: https://github.com/imenesesl/carousel_widget
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
