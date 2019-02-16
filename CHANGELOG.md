@@ -1,3 +1,2 @@
-## [0.0.1] - TODO: Add release date.
-
-* TODO: Describe initial release.
+## [0.0.1] Initial Release
+* Implementation of Carousel and Fragment as container of Widgets
