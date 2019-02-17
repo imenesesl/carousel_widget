@@ -1,16 +1,49 @@
-# example
+# carousel_widget
 
-A new Flutter project.
+A library for the use of the Carousel Widget through a list of Fragments
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Implements package in your pubspec.yaml
 
-A few resources to get you started if this is your first Flutter project:
+```
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_widget: 
+```
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+Use the Carousel and the Fragment to implement any type of Widget
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```
+class MyCarousel extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Carousel(
+        listViews: [
+          Fragment(
+            child: ListView.builder(
+              itemCount: 24,
+              itemBuilder: ((context, index) => ListTile(
+                    title: Text('index $index'),
+                  )),
+            ),
+          ),
+          Fragment(
+            child: CircleAvatar(
+              radius: 56,
+              backgroundColor: Colors.orange,
+              child: Text(
+                'LM',
+                style: TextStyle(fontSize: 48),
+              ),
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+```
