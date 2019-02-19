@@ -10,7 +10,7 @@ Implements package in your pubspec.yaml
 dependencies:
   flutter:
     sdk: flutter
-  carousel_widget: ^ 0.1.0
+  carousel_widget: ^ 0.1.1
 ```
 
 Use the Carousel and the Fragment to implement any type of Widget
