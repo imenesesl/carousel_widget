@@ -14,8 +14,10 @@ class PointSelected extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: CircleAvatar(
-        radius: currentIndex == position ? _radius + 1.0 :_radius,
-        backgroundColor: currentIndex == position ? CupertinoColors.inactiveGray : CupertinoColors.lightBackgroundGray,
+        radius: currentIndex == position ? _radius + 1.0 : _radius,
+        backgroundColor: currentIndex == position
+            ? CupertinoColors.inactiveGray
+            : CupertinoColors.lightBackgroundGray,
       ),
       margin: EdgeInsets.only(
         left: _margin,
