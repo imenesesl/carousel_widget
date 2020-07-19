@@ -6,7 +6,7 @@ A library for the use of the Carousel Widget through a list of Fragments
 
 Implements package in your pubspec.yaml
 
-```
+```yml
 dependencies:
   flutter:
     sdk: flutter
@@ -17,7 +17,7 @@ Use the Carousel and the Fragment to implement any type of Widget
 
 ## Example
 
-```
+```dart
 import 'package:flutter/material.dart';
 import 'package:carousel_widget/carousel_widget.dart';
 
